@@ -5,10 +5,12 @@
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "test": "jest --watch"
   },
   "dependencies": {
     "@reduxjs/toolkit": "1.8.1",
+    "jest": "28.1.0",
     "parcel-bundler": "^1.6.1",
     "redux-saga": "1.1.3"
   },
